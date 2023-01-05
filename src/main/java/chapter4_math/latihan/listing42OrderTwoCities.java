@@ -11,8 +11,8 @@ public class listing42OrderTwoCities {
         System.out.print("Enter the second city: ");
         String city2 = input.nextLine();
 
-        if (city1.compareTo(city2) < 0){
-            System.out.println("The cities in a phabetical order are " +
+        if (city1.compareTo(city2) < 0) {
+            System.out.println("The cities in alphabetical order are " +
                     city1 + " " + city2);
         }else {
             System.out.println("The cities in alphabetical order are " +
